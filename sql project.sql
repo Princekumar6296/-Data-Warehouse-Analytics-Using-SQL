@@ -144,6 +144,9 @@ ORDER BY total_sales DESC;
 
 
 
+-- segments products intoo cost ranges and count how many product fall into each segment
+
+
 with product_segments as(
 select 
 product_key,
